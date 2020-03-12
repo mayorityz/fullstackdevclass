@@ -1,0 +1,31 @@
+body {
+    margin: 0px;
+    padding: 0px;
+}
+
+#reg_form {
+    width: 250px;
+    background-color: #f6f6f6;
+    padding: 20px;
+}
+
+
+#reg_form h4 {
+    text-transform: uppercase;
+    font-size: 30px;
+    text-align: center;
+}
+
+#reg_form input {
+    width: 100%;
+    height: 30px;
+    margin-bottom: 10px;
+    border: 1px solid lightskyblue;
+    padding-left: 10px;
+}
+
+#reg_form button {
+    background-color: greenyellow;
+    border: 1px solid lightskyblue;
+    padding: 5px;
+}

@@ -1,0 +1,3 @@
+Refactor the code from the assignment from the last class to, instead of running a function, receive the input from a "Login Form".
+
+i.e. check the array of users for the username submitted in the form and match the password inputted to the index of the username in the password array.
