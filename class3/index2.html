@@ -1,0 +1,138 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>class</title>
+    <style>
+        body {
+            margin: 0px;
+            padding: 0px;
+        }
+
+        #products {
+            background-color: blue;
+            overflow: auto;
+        }
+
+        .products {
+            width: 350px;
+            height: 450px;
+            background-color: gold;
+            margin: 20px;
+            float: left;
+        }
+
+        #with_flex {
+            background-color: indigo;
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: space-between;
+        }
+
+        .with_flex {
+            width: 350px;
+            height: 450px;
+            background-color: gold;
+            margin: 20px;
+        }
+
+        .myElem {
+            background-color: coral;
+            width: 350px;
+            height: 350px;
+            margin: 50px;
+            background-image: url("./media/furn.jpg");
+            background-position: top right;
+            background-size: contain;
+            background-repeat: no-repeat;
+        }
+
+        .elem1 {
+            position: relative;
+        }
+
+        .elem2 {
+            background-color: cyan;
+            position: fixed;
+            top: 0;
+        }
+
+        ul,
+        ol {
+            list-style: none;
+        }
+
+        li {
+            display: inline;
+        }
+
+        li a {
+            color: black;
+            text-decoration: none;
+            font-size: 19px;
+            border: 1px solid black;
+            padding: 5px;
+        }
+
+        li a:hover {
+            border-color: red;
+            font-weight: bold;
+        }
+
+        .img_ {
+            width: 50%;
+            height: 50%;
+            border: 1px solid red;
+            margin: 2px;
+        }
+    </style>
+    <!-- 
+        Position in css;
+        - Absolute
+        - Fixed
+
+        Display in css;
+        - Block
+        - Inline
+        - Flex
+        - inline-table
+        - inline-flex
+
+        float
+         - 
+     -->
+</head>
+
+<body>
+    <nav></nav>
+    <div id="products">
+        <h5>my products</h5>
+        <div class="products"></div>
+        <div class="products"></div>
+        <div class="products"></div>
+    </div>
+    <div id="with_flex">
+        <div class="with_flex"></div>
+        <div class="with_flex"></div>
+        <div class="with_flex"></div>
+        <div class="with_flex"></div>
+        <div class="with_flex"></div>
+        <div class="with_flex"></div>
+    </div>
+    <div>
+        <img src="./media/furn.jpg" alt="" class="img_">
+    </div>
+    <div class="mainDiv">
+        <div class="myElem">Block A</div>
+        <!-- <div class="myElem elem2">Block B</div> -->
+        <!-- unordered list -->
+        <ul>
+            <li><a href="#">Buy A New Car</a></li>
+            <li><a href="#">Get Some Hand Sanitizers</a></li>
+        </ul>
+    </div>
+</body>
+
+</html>

@@ -1,0 +1,201 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link href="https://fonts.googleapis.com/css?family=Anton&display=swap" rel="stylesheet">
+    <title>ClassWork</title>
+    <!-- emmy199537@gmail.com -->
+    <style>
+        /**
+            body
+            nav
+        */
+        body {
+            margin: 0px;
+            padding: 0px;
+            font-family: 'Anton', sans-serif;
+        }
+
+        nav {
+            background-color: #aa3fcd;
+            height: 45px;
+            display: flex;
+            justify-content: space-between;
+        }
+
+        nav img,
+        footer img {
+            height: 40px;
+            width: 40px;
+            margin: 2px;
+            border-radius: 5px;
+        }
+
+        nav ul {}
+
+        nav li {
+            display: inline;
+            color: white;
+            margin: 5px;
+            text-transform: uppercase;
+        }
+
+        /* banner  */
+        .banner {
+            width: 100%;
+            background-image: url("./media/glasses.jpeg");
+            background-repeat: no-repeat;
+            height: 350px;
+            background-size: cover;
+            background-position: center;
+        }
+
+        .recent_products {
+            display: flex;
+            flex-wrap: wrap;
+            justify-content: center;
+        }
+
+        .prod {
+            width: 350px;
+            height: auto;
+            background-color: #f6f6f6;
+            margin: 20px;
+        }
+
+        .prod img {
+            max-width: 100%;
+        }
+
+        .prod h6,
+        .prod p {
+            text-align: center;
+        }
+
+        .prod h6 {
+            font-size: 30px;
+            color: blue;
+            margin: 0px auto;
+        }
+
+        footer {
+            display: flex;
+            justify-content: space-around;
+            background-color: rebeccapurple;
+        }
+
+        footer ul li {
+            list-style: none;
+        }
+
+        footer>div {
+            width: 33.3%;
+        }
+
+        .subs {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        footer form input {
+            border: 1px solid red;
+            width: 300px;
+            height: 43px;
+        }
+    </style>
+</head>
+
+<body>
+    <nav>
+        <img src="./media/furn.jpg"" alt="" />
+        <div>
+            <ul>
+                <li>Home</li>
+                <li>About</li>
+                <li>Contact</li>
+                <li>Login</li>
+            </ul>
+        </div>
+        
+    </nav>
+
+    <div class=" banner"></div>
+
+        <div class="recent_products">
+            <div class="prod">
+                <img src="./media/furn.jpg" alt="">
+                <h6>Product Name</h6>
+                <p>N3,500</p>
+            </div>
+            <div class="prod">
+                <img src="./media/furn.jpg" alt="">
+                <h6>Product Name</h6>
+                <p>N3,500</p>
+            </div>
+            <div class="prod">
+                <img src="./media/furn.jpg" alt="">
+                <h6>Product Name</h6>
+                <p>N3,500</p>
+            </div>
+            <div class="prod">
+                <img src="./media/furn.jpg" alt="">
+                <h6>Product Name</h6>
+                <p>N3,500</p>
+            </div>
+            <div class="prod">
+                <img src="./media/furn.jpg" alt="">
+                <h6>Product Name</h6>
+                <p>N3,500</p>
+            </div>
+            <div class="prod">
+                <img src="./media/furn.jpg" alt="">
+                <h6>Product Name</h6>
+                <p>N3,500</p>
+            </div>
+            <div class="prod">
+                <img src="./media/furn.jpg" alt="">
+                <h6>Product Name</h6>
+                <p>N3,500</p>
+            </div>
+            <div class="prod">
+                <img src="./media/furn.jpg" alt="">
+                <h6>Product Name</h6>
+                <p>N3,500</p>
+            </div>
+            <div class="prod">
+                <img src="./media/furn.jpg" alt="">
+                <h6>Product Name</h6>
+                <p>N3,500</p>
+            </div>
+            <div class="prod">
+                <img src="./media/furn.jpg" alt="">
+                <h6>Product Name</h6>
+                <p>N3,500</p>
+            </div>
+        </div>
+
+        <footer>
+            <div>
+                <img src="./media/furn.jpg" alt="">
+            </div>
+            <div>
+                <ul>
+                    <li>Home</li>
+                    <li>Product</li>
+                    <li>Login</li>
+                    <li>Register</li>
+                </ul>
+            </div>
+            <div class="subs">
+                <form action="">
+                    <input type="text" placeholder="Subscribe Here ..." />
+                </form>
+            </div>
+        </footer>
+
+</body>
+
+</html>

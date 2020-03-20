@@ -29,3 +29,7 @@ body {
     border: 1px solid lightskyblue;
     padding: 5px;
 }
+
+.error {
+    border-color: red !important;
+}
